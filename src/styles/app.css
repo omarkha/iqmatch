@@ -1,0 +1,142 @@
+/** color scheme: #4C4B16 , #898121 , #E7B10A , #F7F1E5 **/
+
+.search-section {
+  margin: 21px auto;
+}
+
+.video-section {
+  margin: 8px auto;
+  background-color: #4c4b16;
+  box-shadow: 0 0 8px 3px #4c4b16;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 62.8vh;
+}
+
+.controls-section {
+  margin: 8px auto;
+  padding: 8px;
+  padding-top: 1px;
+  width: 100%;
+}
+
+.top-section {
+  border-radius: 21px;
+  box-shadow: 0 0 8px 3px #4c4b16;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 21px;
+  margin: 21px auto;
+  padding: 13px;
+  background-color: #222;
+  height: 23vh;
+}
+
+.main-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 8px 0;
+  gap: 8px;
+}
+
+.action-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 13px;
+}
+
+.action-types button {
+  padding: 3px 8px;
+}
+
+.action-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 13px;
+}
+
+h6 {
+  text-align: start;
+  color: #fff;
+  margin-top: 0;
+  font-size: 13px;
+}
+
+#add-event-btn {
+  width: 233px;
+  height: 34px;
+}
+
+.timing-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.timing-section input {
+  width: 55px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.timing-section label {
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: start;
+  color: #fff;
+}
+
+#search-bar {
+  width: 377px;
+  height: 34px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid #222;
+}
+
+.search-section button {
+  height: 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid #222;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.action-table {
+  background-color: #4c4b16;
+  grid-column: 3/8;
+  height: 144px;
+  overflow: scroll;
+  border: 3px solid #e7b10a;
+}
+
+.action-table-item {
+  text-align: start;
+  padding-left: 8px;
+  color: #e7b10a;
+  border-bottom: 2px solid #222;
+  cursor: pointer;
+}
+
+.action-table-item:hover {
+  text-align: start;
+  padding-left: 8px;
+  color: #fff;
+  border-bottom: 2px solid #222;
+  cursor: pointer;
+}

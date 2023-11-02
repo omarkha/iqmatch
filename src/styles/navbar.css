@@ -1,0 +1,18 @@
+/** color scheme: #4C4B16 , #898121 , #E7B10A , #F7F1E5 **/
+
+.navbar {
+  margin: 0;
+  background-color: #4c4b16;
+  height: 75px;
+  padding: 8px 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  list-style: none;
+  justify-content: end;
+  align-items: center;
+  color: #f7f1e5;
+}
